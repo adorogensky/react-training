@@ -8,7 +8,11 @@ class LikeButton extends React.Component {
 
 	render() {
 		if (this.state.liked) {
-			return 'You liked this.';
+			return React.createElement(
+				'button',
+				{ disabled: true },
+				'You liked this.'
+			);
 		}
 
 		return React.createElement(
