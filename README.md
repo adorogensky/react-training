@@ -1,1 +1,1 @@
-# workshop
+# React Training
